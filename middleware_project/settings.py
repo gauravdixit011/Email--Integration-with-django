@@ -27,7 +27,9 @@ SECRET_KEY = 'django-insecure-84o&7p-1wpx)47hd(p^h_e6=xthbl_@oh7+vmr)9pj&7j-lld8
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "email-integration-with-django.onrender.com"
+    ".onrender.com",
+    "localhost",
+    "127.0.0.1",
 ]
 
 
