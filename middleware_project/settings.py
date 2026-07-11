@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-84o&7p-1wpx)47hd(p^h_e6=xthbl_@oh7+vmr)9pj&7j-lld8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "email-integration-with-django.onrender.com"
+]
 
 
 # Application definition
